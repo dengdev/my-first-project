@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26cf602e4e7d1db4984676ebbfb0ed1d, type: 3}
+  m_Name: GameH2A_Week2
+  m_EditorClassIdentifier: 
+  gameName: H2A
+  ballDetailsList:
+  - BallName: 1
+    wrongSprite: {fileID: 21300000, guid: 6d8b4ecdbfff9cc4dbb07064db5bdb73, type: 3}
+    rightSprite: {fileID: 21300000, guid: 8f9e7009223e18e4b9ba81bcf9cbd51e, type: 3}
+  - BallName: 2
+    wrongSprite: {fileID: 21300000, guid: 6573933312d241e4cb9080da9119d41b, type: 3}
+    rightSprite: {fileID: 21300000, guid: 4d1344fb1db2d314f913466dfa52ca0a, type: 3}
+  - BallName: 3
+    wrongSprite: {fileID: 21300000, guid: c2090ddc2675b9c47a7b425963c93299, type: 3}
+    rightSprite: {fileID: 21300000, guid: cfbe3f0012c32c549aec7e299739281a, type: 3}
+  - BallName: 4
+    wrongSprite: {fileID: 21300000, guid: 15ee92825195d7544912620982b6169b, type: 3}
+    rightSprite: {fileID: 21300000, guid: b6cd301f14a14a74c978b47fe2a6521c, type: 3}
+  - BallName: 5
+    wrongSprite: {fileID: 21300000, guid: 254c6f20d24b1df4c9f2d87ab0107b85, type: 3}
+    rightSprite: {fileID: 21300000, guid: 348f716af07584041b5b186c09de7deb, type: 3}
+  - BallName: 6
+    wrongSprite: {fileID: 21300000, guid: 33646b939f492b641a81c08ea07ea34b, type: 3}
+    rightSprite: {fileID: 21300000, guid: ddbc5207c48af594f9f652d0324b0e11, type: 3}
+  lineConnections:
+  - from: 0
+    to: 1
+  - from: 0
+    to: 2
+  - from: 0
+    to: 3
+  - from: 0
+    to: 4
+  - from: 0
+    to: 5
+  - from: 0
+    to: 6
+  - from: 1
+    to: 2
+  - from: 1
+    to: 4
+  - from: 1
+    to: 5
+  - from: 3
+    to: 5
+  - from: 4
+    to: 5
+  - from: 5
+    to: 6
+  startBallOrder: 00000000060000000500000004000000030000000200000001000000
