@@ -1,2 +1,2 @@
-# my-first-project
-这是我在 GitHub 上的第一个项目，是关于2D解密类游戏迷失岛Demo的展示
+# 迷失岛2项目演示
+这是我在 GitHub 上的第一个项目，关于2D解密类游戏迷失岛2的Demo
